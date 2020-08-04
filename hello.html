@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <script>
+    function onClick(){ 
+      var s = document.getElementById('image');
+      
+      if(s.src = './firstfirst.jpg'){
+        s.src = './second.jpg'
+        console.log(s.src)
+      }
+    }
+  </script>
+</head>
+<body>
+  <div>
+    <img id="image" onclick="onClick()" src="./firstfirst.jpg"/>
+  </div>
+</body>
+</html>
